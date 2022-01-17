@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Flexbox</title>
+</head>
+<body>
+    <main> <!-- representa el contenido principal del <body> de un documento o aplicación. El área principal del contenido consiste en el contenido que está directamente relacionado, o se expande sobre el tema central de un documento o la funcionalidad central de una aplicación -->
+        <h1>Flexbox</h1>
+        <section class = "justity-content">
+            <h2>justity-content</h2>
+            <h3>flex-start (Default)</h3>
+            <div class =" flex flex-start">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>flex-end</h3>
+            <div class =" flex flex-end">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>center</h3>
+            <div class =" flex center">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>space-between</h3>
+            <div class =" flex space-between">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>space-around</h3>
+            <div class =" flex space-around">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>space-evenly</h3>
+            <div class =" flex space-evenly">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+        </section>
+
+        <section class="flex-direction">
+            <h2>flex-direction</h2>
+            <h3>row</h3>
+            <div class =" flex row">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>row-reverse</h3>
+            <div class =" flex row-reverse">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>column</h3>
+            <div class =" flex column">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div> 
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>column-reverse</h3>
+            <div class =" flex column-reverse">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+
+        </section>
+
+        <section class="flex-wrap">
+            <h2>flex-wrap</h2>
+            <h3>nowwrap</h3>
+            <div class =" flex nowwrap">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>wrap (aumentar el tamaño del cuadro para que sobrepase el width del contenedor)</h3>
+            <div class =" flex wrap">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>wrap-reverse</h3>
+            <div class =" flex wrap-reverse">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            
+        </section>
+
+        <section class="align-items">
+            <h2>align-items </h2>
+            <h3>flex-start</h3>
+            <div class =" flex ai-flex-start">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>flex-end</h3>
+            <div class =" flex ai-flex-end">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>flex-start (colomun)</h3>
+            <div class =" flex ai-flex-start-colomun">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>flex-end (colomun)</h3>
+            <div class =" flex ai-flex-end-colomun">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>center</h3>
+            <div class =" flex ai-flex-center">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>center (colomun)</h3>
+            <div class =" flex ai-flex-center-colomun">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>stretch (Quitar el alto del elemento)</h3>
+            <div class =" flex ai-flex-stretch">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>stretch (columna) (Quitar el ancho del elemento)</h3>
+            <div class =" flex ai-flex-stretch-column">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+        </section>
+
+        <section class="align-content">
+            <h2>align-content</h2>
+            <h3>flex-start</h3>
+            <div class =" flex ac-flex-start">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>flex-end</h3>
+            <div class =" flex ac-flex-end">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>center</h3>
+            <div class =" flex ac-flex-center">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>space-between</h3>
+            <div class =" flex ac-flex-space-between">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>space-around</h3>
+            <div class =" flex ac-flex-space-around">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+            <h3>stretch</h3>
+            <div class =" flex ac-flex-stretch">
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+                <div class="cuadrado"></div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>    

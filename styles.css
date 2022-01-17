@@ -1,0 +1,136 @@
+main ,.flex-wrap, .align-items{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.flex{ 
+    height: 250px;
+    width: 250px;
+    border: 1px  solid black;
+    display:flex ; /*posicionar objetos*/
+}
+
+/*Refactoring, refactorización del código */
+
+.flex-start{
+    justify-content: flex-start;    
+}
+
+.flex-end{
+    justify-content: flex-end; 
+}
+.center{
+    justify-content: center ;
+}
+.space-between{
+    justify-content: space-between ; 
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+}
+.column-reverse{
+    flex-direction: column-reverse;
+}
+.nowwrap{
+    flex-wrap: nowrap;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+.ai-flex-start{
+    align-items: flex-start;
+}
+.ai-flex-end{
+    align-items: flex-end;
+}
+.ai-flex-start-colomun{
+    flex-direction: column;
+    align-items: flex-start
+}
+.ai-flex-end-colomun{
+    flex-direction: column;
+    align-items: flex-end;
+}
+.ai-flex-center{
+    align-items: center;
+}
+.ai-flex-center-colomun{
+    align-items:center;
+    flex-direction: column;
+}
+.ai-flex-stretch{
+    align-items: stretch;
+}
+.ai-flex-stretch-column{
+    align-items: stretch;
+    flex-direction: column;
+}
+.ac-flex-start{
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+.ac-flex-end{
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.ac-flex-center{
+    align-content:center;
+    flex-wrap: wrap;
+}
+.ac-flex-space-between{
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.ac-flex-space-around{
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.ac-flex-stretch{
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+.cuadrado{
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+}
+.cuadrado:nth-of-type(2){
+    background-color: blueviolet;
+
+}
+.cuadrado:nth-of-type(3){
+    background-color: pink;
+}
+.cuadrado:nth-of-type(4){
+    background-color: blue
+    
+}
+.cuadrado:nth-of-type(5){
+    background-color: red;
+    
+}
+.cuadrado:nth-of-type(6){
+    background-color: green;
+    
+}
+.cuadrado:nth-of-type(7){
+    background-color: yellow;
+    
+}
